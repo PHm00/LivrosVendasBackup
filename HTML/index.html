@@ -35,7 +35,7 @@
                 </ul>
                 <div class="d-flex align-items-center">
                     <!-- Botão "Add To Cart" -->
-                    <div class="btn-add-to-cart">
+                    <a href="carrinho.html" class="btn-add-to-cart">
                         <div class="button-wrapper">
                             <span class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
@@ -43,7 +43,7 @@
                                 </svg>
                             </span>
                         </div>
-                    </div>
+                    </a>
                     <!-- Formulário de Pesquisa -->
                     <form class="d-flex ms-3" role="search">
                         <input class="form-control me-2" type="search" placeholder="O que vai ser hoje?" aria-label="Search">
@@ -75,52 +75,167 @@
         <div class="row">
             <!-- Product Card 1 -->
             <div class="col-md-4 mb-4">
-                <div class="card">
-                    <img src="../Imagens/kimetsuVol1.png.png" class="card-img-top" alt="Produto 1"> <!-- Adiciona a imagem do produto -->
+                <div class="card"> 
+                    <div class="card-container">
+                      <div class="card">
+                      <div class="img-content">
+                        <img src="../Imagens/kimetsuVol1.png.png" class="card-img-top"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-miterlimit="2" stroke-linejoin="round" fill-rule="evenodd" clip-rule="evenodd"><path fill-rule="nonzero" d="m2 19v-14c0-.552.447-1 1-1 .542 0 4.418 2.028 9 2.028 4.593 0 8.456-2.028 9-2.028.55 0 1 .447 1 1v14c0 .553-.45 1-1 1-.544 0-4.407-2.028-9-2.028-4.582 0-8.458 2.028-9 2.028-.553 0-1-.448-1-1zm1.5-.791 6.449-7.691c.289-.344.879-.338 1.16.012 0 0 1.954 2.434 1.954 2.434l1.704-1.283c.319-.24.816-.168 1.054.154l4.679 6.335v-12.44c-1.58.58-4.819 1.798-8.5 1.798-3.672 0-6.918-1.218-8.5-1.799zm2.657-.834c1.623-.471 3.657-.903 5.843-.903 2.309 0 4.444.479 6.105.98l-3.041-4.117-1.065.802.275.344c.259.323.206.796-.117 1.054-.323.259-.795.207-1.054-.117l-2.591-3.236zm.698-9.534c-1.051 0-1.905.854-1.905 1.905s.854 1.904 1.905 1.904 1.904-.853 1.904-1.904-.853-1.905-1.904-1.905zm0 1.3c.333 0 .604.271.604.605 0 .333-.271.604-.604.604-.334 0-.605-.271-.605-.604 0-.334.271-.605.605-.605z"></path></svg>
+                      </div>
+                      <div class="content">
+                        <p class="heading">Card Hover</p>
+                        <p>
+                          Lorem
+                        </p>
+                      </div>
+                    </div>
+                    </div><br><br><br><br>
+                     <!-- Adiciona a imagem do produto -->
                     <div class="card-body">
-                        <p class="heading">Demon Slayer vol 1</p>
-                        <p>R$ 26,00</p>
+                        <p class="heading">Demon Slayer vol 1</p> 
+                            <a href="slayer.html"><div data-tooltip="R$ 26,00" class="button">
+                            <div class="button-wrapper">
+                            <div class="text">Comprar</div>
+                                <span class="icon">
+                                <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16">
+                            <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+                            </svg>
+                                </span>
+                            </div>
+                            </div>
+                            </a>
                     </div>
                 </div>
             </div>
             <!-- Product Card 2 -->
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="../Imagens/berserkVol1.png" class="card-img-top" alt="Produto 2"> <!-- Adiciona a imagem do produto -->
-                    <div class="card-body">
-                        <p class="heading">Berserk <br>Vol 1</p>
-                        <p>R$ 34,00</p>
-                    </div>
+                    <div class="card-container">
+                        <div class="card">
+                        <div class="img-content">
+                          <img src="../Imagens/berserkVol1.png" class="card-img-top"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-miterlimit="2" stroke-linejoin="round" fill-rule="evenodd" clip-rule="evenodd"><path fill-rule="nonzero" d="m2 19v-14c0-.552.447-1 1-1 .542 0 4.418 2.028 9 2.028 4.593 0 8.456-2.028 9-2.028.55 0 1 .447 1 1v14c0 .553-.45 1-1 1-.544 0-4.407-2.028-9-2.028-4.582 0-8.458 2.028-9 2.028-.553 0-1-.448-1-1zm1.5-.791 6.449-7.691c.289-.344.879-.338 1.16.012 0 0 1.954 2.434 1.954 2.434l1.704-1.283c.319-.24.816-.168 1.054.154l4.679 6.335v-12.44c-1.58.58-4.819 1.798-8.5 1.798-3.672 0-6.918-1.218-8.5-1.799zm2.657-.834c1.623-.471 3.657-.903 5.843-.903 2.309 0 4.444.479 6.105.98l-3.041-4.117-1.065.802.275.344c.259.323.206.796-.117 1.054-.323.259-.795.207-1.054-.117l-2.591-3.236zm.698-9.534c-1.051 0-1.905.854-1.905 1.905s.854 1.904 1.905 1.904 1.904-.853 1.904-1.904-.853-1.905-1.904-1.905zm0 1.3c.333 0 .604.271.604.605 0 .333-.271.604-.604.604-.334 0-.605-.271-.605-.604 0-.334.271-.605.605-.605z"></path></svg>
+                        </div>
+                        <div class="content">
+                          <p class="heading">Card Hover</p>
+                          <p>
+                            Lorem
+                          </p>
+                        </div>
+                      </div>
+                      </div><br><br><br><br>
+                       <!-- Adiciona a imagem do produto -->
+                      <div class="card-body">
+                          <p class="heading">Berserk Vol 1</p> 
+                              <a href="slayer.html"><div data-tooltip="R$ 26,00" class="button">
+                              <div class="button-wrapper">
+                              <div class="text">Comprar</div>
+                                  <span class="icon">
+                                  <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16">
+                              <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+                              </svg>
+                                  </span>
+                              </div>
+                              </div>
+                              </a>
+                      </div>
                 </div>
             </div>
             <!-- Product Card 3 -->
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="../Imagens/deathNoteVol1.png" class="card-img-top" alt="Produto 3"> <!-- Adiciona a imagem do produto -->
-                    <div class="card-body">
-                        <p class="heading">Death Note vol 1</p>
-                        <p>R$ 70,00</p>
-                    </div>
+                    <div class="card-container">
+                        <div class="card">
+                        <div class="img-content">
+                          <img src="../Imagens/deathNoteVol1.png" class="card-img-top"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-miterlimit="2" stroke-linejoin="round" fill-rule="evenodd" clip-rule="evenodd"><path fill-rule="nonzero" d="m2 19v-14c0-.552.447-1 1-1 .542 0 4.418 2.028 9 2.028 4.593 0 8.456-2.028 9-2.028.55 0 1 .447 1 1v14c0 .553-.45 1-1 1-.544 0-4.407-2.028-9-2.028-4.582 0-8.458 2.028-9 2.028-.553 0-1-.448-1-1zm1.5-.791 6.449-7.691c.289-.344.879-.338 1.16.012 0 0 1.954 2.434 1.954 2.434l1.704-1.283c.319-.24.816-.168 1.054.154l4.679 6.335v-12.44c-1.58.58-4.819 1.798-8.5 1.798-3.672 0-6.918-1.218-8.5-1.799zm2.657-.834c1.623-.471 3.657-.903 5.843-.903 2.309 0 4.444.479 6.105.98l-3.041-4.117-1.065.802.275.344c.259.323.206.796-.117 1.054-.323.259-.795.207-1.054-.117l-2.591-3.236zm.698-9.534c-1.051 0-1.905.854-1.905 1.905s.854 1.904 1.905 1.904 1.904-.853 1.904-1.904-.853-1.905-1.904-1.905zm0 1.3c.333 0 .604.271.604.605 0 .333-.271.604-.604.604-.334 0-.605-.271-.605-.604 0-.334.271-.605.605-.605z"></path></svg>
+                        </div>
+                        <div class="content">
+                          <p class="heading">Card Hover</p>
+                          <p>
+                            Lorem
+                          </p>
+                        </div>
+                      </div>
+                      </div><br><br><br><br>
+                       <!-- Adiciona a imagem do produto -->
+                      <div class="card-body">
+                          <p class="heading">Death deathNote Vol 1</p> 
+                              <a href="slayer.html"><div data-tooltip="R$ 26,00" class="button">
+                              <div class="button-wrapper">
+                              <div class="text">Comprar</div>
+                                  <span class="icon">
+                                  <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16">
+                              <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+                              </svg>
+                                  </span>
+                              </div>
+                              </div>
+                              </a>
+                      </div>
                 </div>
             </div><br><br>
             <!-- Product Card 4 -->
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="../Imagens/percyJackson.png" class="card-img-top" alt="Produto 4"> <!-- Adiciona a imagem do produto -->
-                    <div class="card-body">
-                        <p class="heading">Percy Jackson</p>
-                        <p>R$ 71,00</p>
-                    </div>
+                    <div class="card-container">
+                        <div class="card">
+                        <div class="img-content">
+                          <img src="../Imagens/percyJackson.png" class="card-img-top"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-miterlimit="2" stroke-linejoin="round" fill-rule="evenodd" clip-rule="evenodd"><path fill-rule="nonzero" d="m2 19v-14c0-.552.447-1 1-1 .542 0 4.418 2.028 9 2.028 4.593 0 8.456-2.028 9-2.028.55 0 1 .447 1 1v14c0 .553-.45 1-1 1-.544 0-4.407-2.028-9-2.028-4.582 0-8.458 2.028-9 2.028-.553 0-1-.448-1-1zm1.5-.791 6.449-7.691c.289-.344.879-.338 1.16.012 0 0 1.954 2.434 1.954 2.434l1.704-1.283c.319-.24.816-.168 1.054.154l4.679 6.335v-12.44c-1.58.58-4.819 1.798-8.5 1.798-3.672 0-6.918-1.218-8.5-1.799zm2.657-.834c1.623-.471 3.657-.903 5.843-.903 2.309 0 4.444.479 6.105.98l-3.041-4.117-1.065.802.275.344c.259.323.206.796-.117 1.054-.323.259-.795.207-1.054-.117l-2.591-3.236zm.698-9.534c-1.051 0-1.905.854-1.905 1.905s.854 1.904 1.905 1.904 1.904-.853 1.904-1.904-.853-1.905-1.904-1.905zm0 1.3c.333 0 .604.271.604.605 0 .333-.271.604-.604.604-.334 0-.605-.271-.605-.604 0-.334.271-.605.605-.605z"></path></svg>
+                        </div>
+                        <div class="content">
+                          <p class="heading">Card Hover</p>
+                          <p>
+                            Lorem
+                          </p>
+                        </div>
+                      </div>
+                      </div><br><br><br><br>
+                       <!-- Adiciona a imagem do produto -->
+                      <div class="card-body">
+                          <p class="heading">Percy jackson</p> 
+                              <a href="slayer.html"><div data-tooltip="R$ 26,00" class="button">
+                              <div class="button-wrapper">
+                              <div class="text">Comprar</div>
+                                  <span class="icon">
+                                  <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16">
+                              <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+                              </svg>
+                                  </span>
+                              </div>
+                              </div>
+                              </a>
+                      </div>
                 </div>
             </div>
             <!-- Product Card 5 -->
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="../Imagens/diarioDeUmBanan.png" class="card-img-top" alt="Produto 5"> <!-- Adiciona a imagem do produto -->
-                    <div class="card-body">
-                        <p class="heading">Diário de um Banana</p>
-                        <p>R$ 59,00</p>
-                    </div>
+                    <div class="card-container">
+                        <div class="card">
+                        <div class="img-content">
+                          <img src="../Imagens/diarioDeUmBanan.png" class="card-img-top"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-miterlimit="2" stroke-linejoin="round" fill-rule="evenodd" clip-rule="evenodd"><path fill-rule="nonzero" d="m2 19v-14c0-.552.447-1 1-1 .542 0 4.418 2.028 9 2.028 4.593 0 8.456-2.028 9-2.028.55 0 1 .447 1 1v14c0 .553-.45 1-1 1-.544 0-4.407-2.028-9-2.028-4.582 0-8.458 2.028-9 2.028-.553 0-1-.448-1-1zm1.5-.791 6.449-7.691c.289-.344.879-.338 1.16.012 0 0 1.954 2.434 1.954 2.434l1.704-1.283c.319-.24.816-.168 1.054.154l4.679 6.335v-12.44c-1.58.58-4.819 1.798-8.5 1.798-3.672 0-6.918-1.218-8.5-1.799zm2.657-.834c1.623-.471 3.657-.903 5.843-.903 2.309 0 4.444.479 6.105.98l-3.041-4.117-1.065.802.275.344c.259.323.206.796-.117 1.054-.323.259-.795.207-1.054-.117l-2.591-3.236zm.698-9.534c-1.051 0-1.905.854-1.905 1.905s.854 1.904 1.905 1.904 1.904-.853 1.904-1.904-.853-1.905-1.904-1.905zm0 1.3c.333 0 .604.271.604.605 0 .333-.271.604-.604.604-.334 0-.605-.271-.605-.604 0-.334.271-.605.605-.605z"></path></svg>
+                        </div>
+                        <div class="content">
+                          <p class="heading">Card Hover</p>
+                          <p>
+                            Lorem
+                          </p>
+                        </div>
+                      </div>
+                      </div><br><br><br><br>
+                       <!-- Adiciona a imagem do produto -->
+                      <div class="card-body">
+                          <p class="heading">Diário de um Banan vol 1</p> 
+                              <a href="slayer.html"><div data-tooltip="R$ 26,00" class="button">
+                              <div class="button-wrapper">
+                              <div class="text">Comprar</div>
+                                  <span class="icon">
+                                  <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16">
+                              <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+                              </svg>
+                                  </span>
+                              </div>
+                              </div>
+                              </a>
+                      </div>
                 </div>
             </div>
             <!-- Product Card 6 -->
